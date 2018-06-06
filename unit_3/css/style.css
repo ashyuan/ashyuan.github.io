@@ -1,0 +1,27 @@
+body {
+	text-align:center;
+	padding:30px;
+	background: white;
+	font-family: garamond, serif;
+	color: #1E507C
+}
+
+h1{
+	font-family:futura, sans-serif;
+	font-weight:normal;
+	font-size:45px;
+	line-height:1;
+}
+h2{
+	font-size:20px;
+	font-weight:lighter;
+	line-height:0.5;
+}
+#slogan{
+	font-style: italic;
+	color:#9E917C;
+}
+ul{
+	list-style-type: none;
+	line-height:2;
+}
