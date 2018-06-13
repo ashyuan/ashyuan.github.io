@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Cardo|Crimson+Text|Josefin+Sans|Lora');
+
+h1{
+	font-family:'Josefin Sans', sans-serif;
+	font-weight:normal;
+	font-size:60px;
+	line-height:0.5em;
+}
+#slogan{
+	font-style: italic;
+	color:#9E917C;
+	font-size:20px;
+	font-weight:lighter;
+	line-height:0.1em;
+}
+body {
+	text-align:center;
+	padding: 30px;
+	font-family: 'Lora', serif;
+	font-size: 18px;
+	line-height: 1.5em;
+	color: #1E507C;
+}
+ul{
+	list-style-type: none;
+	line-height:2em;
+	text-align: center;
+	font-weight: bold;
+}
+#contact{
+	font-weight: lighter;
+}
