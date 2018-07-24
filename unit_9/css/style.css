@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css?family=Cardo|Crimson+Text|Josefin+Sans|Lora|Montserrat');
+
+body {
+	background-color: #FFF4E3;;
+	font-family: cardo, sans-serif;
+	font-size: 18px;
+	line-height: 1.5em;
+}
+
+h1{
+	font-family:'Josefin Sans', sans-serif;
+	font-weight:normal;
+	font-size: 3em;
+	text-align: center;
+	letter-spacing: 0em;
+	padding: 2% 2% 1% 2%;
+	color: #F7A393;
+}
+
+#nav_home, #nav_about, #nav_physique, #nav_nutrition, #nav_psyche, #nav_affirmations {
+	text-decoration: none;
+	letter-spacing: 0.1em;
+	display: block;
+	float: left;
+	padding: 0.5% 3%;
+	border: 0;
+	margin: 0 auto;
+	text-align: center;
+	color: #4B5375;
+}
+
+#nav1 {
+	padding: 0 29.5%;
+}
+
+img{
+	background-color:white;
+	width: 35%;
+	margin: 0 auto;
+	display: block;
+}
+
+article{
+	font-family: cardo, sans-serif;
+	font-size: 0.9em;
+	text-transform: uppercase;
+	text-align: center;
+	letter-spacing: 0.1em;
+	padding: 1% 32%;
+	color: #4B5375;
+}
+
+.column {
+	float:left;
+	width: 20.88%;
+	height: 40%;
+	padding: 2%;
+	text-align: center;
+	margin: 0 auto;
+}
+
+#column1, #column2, #column3, #column4 {
+	background-color: #101657;
+	border: solid white 0.05em;
+	color: white;
+}
+
+article {
+	font-size: 0.9em;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	line-height:2em;
+}
+
+#description {
+	text-align: center;
+	word-spacing: 0.1em;
+	color: #4B5375;
+}
+
+#section_physique {
+	text-align: right;
+	float: left;
+	padding: 5em 9em;
+	margin: 0 auto;
+	background-color: #EBECE0;
+}
+
+#section_nutrition {
+	text-align: left;
+	float: right;
+	padding: 5em 18em;
+	margin: 0 auto;
+	background-color: #F6F7FA;
+}
+
+#section_psyche {
+	text-align: right;
+	float: left;
+	padding: 5em 14em;
+	margin: 0 auto;
+	background-color: #EBECE0;
+}
+
+#section_affirmations {
+	text-align: left;
+	float: right;
+	padding: 5em 17em;
+	margin: 0 auto;
+	background-color: #F6F7FA;
+}
+
+h2 {
+	font-family: montserrat, sans-serif;
+	font-size: 1.8em;
+	text-transform: uppercase;
+	line-height: 2em;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	content: "";
+	clear: both;
+	height: 0;
+	font-size: 0;
+}
+
+a:hover {
+	border-bottom-color: #4B5375;
+	color: #4B5375;
+}
+
+footer {
+	font-family: montserrat, sans-serif;
+	font-size: 0.7em;
+	float: none;
+	text-align: center;
+	text-transform: uppercase;
+	display: inline;
+	color: #FFF;
+}
+
+#nav2 {
+	display: block;
+	padding: 1% 38% 1% 25%;
+}
+
+#contact, #privacy, #terms, #copy {
+	background-color: #FFF4E3;
+	color: #aaaaaa;
+	text-decoration: none;
+	float: right;
+	padding: 1%;
+}
+
+
+@media only screen and (max-width: 768px) {
+	img {
+		width: 80%;
+	}
+
+}
